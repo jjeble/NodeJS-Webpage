@@ -14,3 +14,8 @@ timer = setInterval(function(){
 
 console.log(__dirname);
 console.log(__filename);
+
+var counter = require('./count');
+console.log(counter.counter(['jay','viraj','gaurav']));
+console.log(counter.adder(2,7));
+console.log(counter.pi);
